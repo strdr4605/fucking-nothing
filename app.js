@@ -11,4 +11,4 @@ app.get('*', (_, res) => {
   res.sendFile(join(__dirname, 'html', 'index.html'))
 })
 
-app.listen(port, () => console.log(`Listening on port ${port}.`))
+app.listen(port, () => console.log(`http://localhost:${port}`))
