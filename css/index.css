@@ -4,13 +4,14 @@ html, body {
   margin: 0;
 }
 
-img {
+body::after {
+  content: url('loli.png');
   position: fixed;
   bottom: 0px;
   right: -275px;
 }
 
-.animate {
+body.animate::after {
   animation: kek 6.5s;
 }
 
